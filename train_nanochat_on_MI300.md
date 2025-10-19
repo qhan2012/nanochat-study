@@ -2,6 +2,8 @@
 
 ## 🧠 How to Train NanoChat on AMD MI300 (DigitalOcean)
 
+<img width="2630" height="1950" alt="nanochat" src="https://github.com/user-attachments/assets/9948ac02-39c4-4ba9-9435-a3dd0062578a" />
+
 ### 1️⃣ Create a GPU Droplet
 
 Go to **[AMD DigitalOcean](https://amd.digitalocean.com/)** and create a new **GPU Droplet** with the **AMD MI300** GPU.
@@ -88,8 +90,6 @@ python3 -m pytest tests/test_rustbpe.py -v -s
 # Start training
 python3 -m scripts.base_train --depth=12 --device_batch_size=1 --max_seq_len=1024
 ```
-
-<img width="2630" height="1950" alt="nanochat" src="https://github.com/user-attachments/assets/9948ac02-39c4-4ba9-9435-a3dd0062578a" />
 
 ---
 
