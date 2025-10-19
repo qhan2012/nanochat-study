@@ -102,7 +102,7 @@ python3 -m scripts.base_train --depth=12 --device_batch_size=1 --max_seq_len=102
 
 ---
 
-### 🧩 To-Do (Next Steps)
+### 🧩 Next Steps
 
 1. **Train on MI300X ×8 GPUs**
 
