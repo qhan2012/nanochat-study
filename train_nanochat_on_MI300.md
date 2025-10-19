@@ -22,7 +22,7 @@ sudo apt install -y python3.12-venv build-essential pkg-config libssl-dev
 
 # Create and activate virtual environment
 python3 -m venv venv
-source venv/bin/activate
+source ./venv/bin/activate
 ```
 
 ---
